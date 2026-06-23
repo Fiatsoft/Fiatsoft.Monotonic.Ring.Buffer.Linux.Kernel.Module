@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "size": 8192,
+    "reader_policy": "full",
+    "writer_policy": "overwrite"
+  },
+  "devices": [
+    {
+      "name": "orcl",
+      "size": 16384,
+      "device_id": 2
+    },
+    {
+      "name": "ibm",
+      "device_id": 5,
+      "reader_policy": "fresh",
+      "writer_policy": "drop"
+    }
+  ]
+}

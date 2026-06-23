@@ -1,0 +1,10 @@
+{
+  "defaults": {
+    "reader_policy": "fresh",
+    "writer_policy": "block"
+  },
+  "devices": [
+    {"name": "msft", "size": 1024, "device_id": 42},
+    {"name": "ibm", "size": 4096, "reader_policy": "full", "writer_policy": "overwrite"}
+  ]
+}

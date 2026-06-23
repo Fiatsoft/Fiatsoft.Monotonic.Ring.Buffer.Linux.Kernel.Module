@@ -1,0 +1,6 @@
+{
+  "devices": [
+    {"name": "ringbuf_orcl", "size": 2048, "device_id": 69},
+    {"name": "f", "reader_policy": "full", "writer_policy": "overwrite", "reader_claim": "manual"}
+  ]
+}
